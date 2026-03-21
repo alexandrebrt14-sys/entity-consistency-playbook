@@ -1,5 +1,9 @@
 # Entity Consistency Playbook
 
+![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)
+![Schema.org](https://img.shields.io/badge/Schema.org-Entity_Consistency-2e844a)
+![Contributions Welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 
 A step-by-step playbook for building **entity consistency** — the practice of ensuring that every representation of your brand, product, or person across the internet is accurate, aligned, and machine-readable.
