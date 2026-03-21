@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this playbook, please cite as below."
+type: dataset
+title: "Entity Consistency Playbook"
+authors:
+  - family-names: Caramaschi
+    given-names: Alexandre
+    affiliation: "Brasil GEO"
+    website: "https://alexandrecaramaschi.com"
+date-released: "2026-03-20"
+url: "https://github.com/alexandrecaramaschi/entity-consistency-playbook"
+repository-code: "https://github.com/alexandrecaramaschi/entity-consistency-playbook"
+license: MIT
+keywords:
+  - entity-consistency
+  - knowledge-graph
+  - schema-markup
+  - generative-engine-optimization
+  - geo
+  - ai-visibility
+abstract: "A step-by-step playbook for building entity consistency across digital platforms, improving visibility and accuracy in AI-generated responses."
