@@ -96,4 +96,4 @@ MIT License. See [LICENSE](LICENSE).
 
 ---
 
-**Author:** [Alexandre Caramaschi](https://alexandrecaramaschi.com) — CEO at Brasil GEO, GEO specialist, ex-CMO Semantix.
+**Author:** [Alexandre Caramaschi](https://alexandrecaramaschi.com) — CEO da Brasil GEO, ex-CMO da Semantix (Nasdaq), cofundador da AI Brasil.
