@@ -44,13 +44,13 @@ Five platforms, five different names, five different descriptions, and a conflic
 
 ### The Solution
 
-Define a canonical entity profile — a single source of truth for your name, description, and key attributes — and systematically propagate it across all platforms.
+Define a canonical entity profile — a single source of truth for your name, description, and key attributes — and systematically propagate it across all platforms. In addition to structured data on your site, deploy discovery files such as `llms.txt` (v9.0+) and `ai-agents.json` at your domain root so that both retrieval-augmented LLMs and autonomous AI agents can find and understand your entity programmatically.
 
 ## Why It Matters for AI Visibility
 
 1. **LLMs learn from aggregated sources.** If 3 out of 5 sources say your founding year is 2019 and 2 say 2018, the model may report 2019 — or may express uncertainty. Consistency removes doubt.
 
-2. **Knowledge graphs power entity understanding.** Google's Knowledge Graph, Wikidata, and similar systems build entity profiles from multiple sources. Contradictions weaken your entity's representation.
+2. **Knowledge graphs power entity understanding.** Google's Knowledge Graph, Wikidata, and similar systems build entity profiles from multiple sources. Contradictions weaken your entity's representation. Wikidata is a critical layer: creating entities there (e.g., [Q138755507](https://www.wikidata.org/wiki/Q138755507), [Q138755989](https://www.wikidata.org/wiki/Q138755989)) anchors your identity in the open knowledge graph that feeds virtually every LLM and AI search engine.
 
 3. **Retrieval systems match on entity identity.** When Perplexity or Bing Chat retrieves information about you, it looks for entity matches. Inconsistent names (Acme vs Acme Corp vs Acme Corporation) may result in fragmented retrieval or missed matches.
 
@@ -102,7 +102,7 @@ MIT License. See [LICENSE](LICENSE).
 
 - [GEO Checklist](https://github.com/alexandrebrt14-sys/geo-checklist) — The most comprehensive open checklist for AI visibility
 - [GEO Taxonomy](https://github.com/alexandrebrt14-sys/geo-taxonomy) — Structured vocabulary of 60+ GEO terms and definitions
-- [llms.txt Template Pack](https://github.com/alexandrebrt14-sys/llms-txt-templates) — Starter templates for AI-readable brand descriptions
+- [llms.txt Template Pack](https://github.com/alexandrebrt14-sys/llms-txt-templates) — Starter templates for AI-readable brand descriptions (now at v9.0 with 200+ URLs)
 - [Brasil GEO](https://brasilgeo.ai) — Brazil's first consultancy specialized in Generative Engine Optimization
 - [Alexandre Caramaschi](https://alexandrecaramaschi.com) — Full GEO methodology, consulting, and resources
 
