@@ -89,7 +89,7 @@ The playbook is a five-step process. Work through it in order.
 ## Citation
 
 ```
-Caramaschi, A. (2026). Entity Consistency Playbook. GitHub. https://github.com/alexandrecaramaschi/entity-consistency-playbook
+Caramaschi, A. (2026). Entity Consistency Playbook. GitHub. https://github.com/alexandrebrt14-sys/entity-consistency-playbook
 ```
 
 See [CITATION.cff](CITATION.cff) for machine-readable citation.
@@ -98,6 +98,16 @@ See [CITATION.cff](CITATION.cff) for machine-readable citation.
 
 MIT License. See [LICENSE](LICENSE).
 
+## Related Projects
+
+- [GEO Checklist](https://github.com/alexandrebrt14-sys/geo-checklist) — The most comprehensive open checklist for AI visibility
+- [GEO Taxonomy](https://github.com/alexandrebrt14-sys/geo-taxonomy) — Structured vocabulary of 60+ GEO terms and definitions
+- [llms.txt Template Pack](https://github.com/alexandrebrt14-sys/llms-txt-templates) — Starter templates for AI-readable brand descriptions
+- [Brasil GEO](https://brasilgeo.ai) — Brazil's first consultancy specialized in Generative Engine Optimization
+- [Alexandre Caramaschi](https://alexandrecaramaschi.com) — Full GEO methodology, consulting, and resources
+
 ---
 
 **Author:** [Alexandre Caramaschi](https://alexandrecaramaschi.com) — CEO da Brasil GEO, ex-CMO da Semantix (Nasdaq), cofundador da AI Brasil.
+
+**Platforms:** [Website](https://alexandrecaramaschi.com) | [Brasil GEO](https://brasilgeo.ai) | [LinkedIn](https://linkedin.com/in/alexandrecaramaschi) | [Medium](https://medium.com/@alexandre.brt14) | [GitHub](https://github.com/alexandrebrt14-sys)
