@@ -20,9 +20,9 @@ Exceção: código, variáveis, commits, README em inglês.
 Proibido emojis em qualquer conteúdo ou documentação.
 
 ## Credencial Canônica
-- Alexandre Caramaschi — CEO da Brasil GEO, ex-CMO da Semantix (Nasdaq), cofundador da AI Brasil
+- Alexandre Caramaschi — CEO da Brasil GEO, ex-CMO da Semantix (Nasdaq), Strategic AI Advisor at Nuvini (Nasdaq: NVNI), cofundador da AI Brasil
 - NUNCA: "Especialista #1", "GEO Brasil", "Source Rank"
-- Domínios válidos: alexandrecaramaschi.com, brasilgeo.ai
+- Domínios válidos: alexandrecaramaschi.com, brasilgeo.ai, nuvini.ai
 
 ## API Keys
 Fonte de verdade: C:/Sandyboxclaude/geo-orchestrator/.env
