@@ -83,6 +83,7 @@ Place this in the `<head>` of your homepage inside a `<script type="application/
 ```
 
 **Critical fields to get right:**
+
 - `name`: Must match your canonical entity name exactly
 - `description`: Must match your canonical description
 - `sameAs`: Must include all authoritative profile URLs
@@ -211,8 +212,8 @@ On all interior pages:
 
 After implementation, validate every page:
 
-1. **Google Rich Results Test:** https://search.google.com/test/rich-results — paste your URL, check for errors
-2. **Schema.org Validator:** https://validator.schema.org — paste your JSON-LD, check for warnings
+1. **Google Rich Results Test:** <https://search.google.com/test/rich-results> — paste your URL, check for errors
+2. **Schema.org Validator:** <https://validator.schema.org> — paste your JSON-LD, check for warnings
 3. **Manual inspection:** View page source, search for `application/ld+json`, verify the content matches your canonical entity profile
 
 ## Common Mistakes

@@ -94,11 +94,13 @@ Some entity mentions are out of your control — press articles, blog posts, for
 If you manage multiple related entities (company + product + personal brand), ensure the relationships are consistent:
 
 **Example structure:**
+
 - Company: "Acme Corp" — a B2B analytics platform company
 - Product: "Acme Analytics" — by Acme Corp
 - Person: "Jane Smith" — CEO at Acme Corp
 
 **Every reference must be bidirectional:**
+
 - Company page mentions "Acme Analytics" as its product
 - Product page says "by Acme Corp"
 - Jane Smith's LinkedIn says "CEO at Acme Corp"

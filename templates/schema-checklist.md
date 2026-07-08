@@ -8,8 +8,8 @@ A step-by-step checklist for implementing Schema.org structured data across your
 
 - [ ] Canonical entity profile is defined (from Step 1: Audit)
 - [ ] Access to website source code or CMS
-- [ ] Google Rich Results Test bookmarked: https://search.google.com/test/rich-results
-- [ ] Schema.org reference open: https://schema.org/docs/full.html
+- [ ] Google Rich Results Test bookmarked: <https://search.google.com/test/rich-results>
+- [ ] Schema.org reference open: <https://schema.org/docs/full.html>
 
 ## Homepage
 

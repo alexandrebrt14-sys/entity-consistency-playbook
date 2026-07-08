@@ -326,7 +326,7 @@ Copy-paste JSON-LD templates for common entity types. Replace placeholder values
 }
 ```
 
-Replace `LOCAL_BUSINESS_SUBTYPE` with the appropriate type: `Restaurant`, `Store`, `MedicalBusiness`, `LegalService`, `FinancialService`, `RealEstateAgent`, etc. See the full list at https://schema.org/LocalBusiness.
+Replace `LOCAL_BUSINESS_SUBTYPE` with the appropriate type: `Restaurant`, `Store`, `MedicalBusiness`, `LegalService`, `FinancialService`, `RealEstateAgent`, etc. See the full list at <https://schema.org/LocalBusiness>.
 
 ---
 
@@ -399,10 +399,12 @@ Replace `LOCAL_BUSINESS_SUBTYPE` with the appropriate type: `Restaurant`, `Store
 **Multiple schemas on one page:** You can have multiple JSON-LD blocks on a single page. For example, a blog post page might have `Article`, `BreadcrumbList`, and `WebSite` schemas — each in its own `<script>` tag.
 
 **Testing:** Always validate after implementation:
-- Google Rich Results Test: https://search.google.com/test/rich-results
-- Schema.org Validator: https://validator.schema.org
+
+- Google Rich Results Test: <https://search.google.com/test/rich-results>
+- Schema.org Validator: <https://validator.schema.org>
 
 **Common JSON-LD errors:**
+
 - Trailing commas after the last item in an array or object
 - Missing quotes around property values
 - Using relative URLs instead of absolute URLs

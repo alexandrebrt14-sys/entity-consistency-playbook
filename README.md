@@ -86,7 +86,7 @@ The playbook is a five-step process. Work through it in order.
 
 ## Citation
 
-```
+```text
 Caramaschi, A. (2026). Entity Consistency Playbook. GitHub. https://github.com/alexandrebrt14-sys/entity-consistency-playbook
 ```
 
