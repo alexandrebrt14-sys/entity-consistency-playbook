@@ -15,6 +15,7 @@ Establish your entity in the knowledge graph systems that LLMs rely on for entit
 When ChatGPT says "Acme Corp is a B2B analytics platform founded in 2019," that information likely comes from a knowledge graph — either directly (Google Knowledge Graph, Wikidata) or indirectly (sources that feed into training data).
 
 Having a well-defined entry in these systems means:
+
 - AI has a structured, authoritative source for your entity facts
 - Your entity is connected to related entities (industry, people, products)
 - Factual queries about your entity return accurate information
@@ -34,6 +35,7 @@ Having a well-defined entry in these systems means:
 3. **Suggest edits** to correct any inaccurate information.
 
 **If no panel exists:**
+
 - Ensure your entity has sufficient "notability signals": a Wikipedia page, Crunchbase profile, press coverage, or significant web presence.
 - Strong Schema.org markup on your site helps Google build a panel.
 - A Wikidata entry (see below) increases the chance of a panel appearing.
@@ -46,7 +48,7 @@ Having a well-defined entry in these systems means:
 
 **How to create an entry:**
 
-1. Go to https://www.wikidata.org
+1. Go to <https://www.wikidata.org>
 2. Create an account
 3. Click "Create a new Item"
 4. Fill in:
@@ -56,10 +58,11 @@ Having a well-defined entry in these systems means:
 5. Add properties (statements):
 
 **For organizations:**
+
 | Property | Wikidata ID | Value |
 |---|---|---|
 | instance of | P31 | company (Q783794) or appropriate type |
-| official website | P856 | https://yourdomain.com |
+| official website | P856 | <https://yourdomain.com> |
 | inception | P571 | founding date |
 | headquarters location | P159 | city |
 | industry | P452 | your industry |
@@ -68,6 +71,7 @@ Having a well-defined entry in these systems means:
 | official name | P1448 | your legal name |
 
 **For people:**
+
 | Property | Wikidata ID | Value |
 |---|---|---|
 | instance of | P31 | human (Q5) |
@@ -88,17 +92,20 @@ Having a well-defined entry in these systems means:
 **Reality check:** Wikipedia has strict notability requirements. Most small and medium businesses do not meet them. Do not create a Wikipedia article if your entity does not meet the notability guidelines — it will be deleted, and repeated attempts may result in a topic ban.
 
 **Notability criteria (simplified):**
+
 - Significant coverage in multiple independent, reliable sources
 - Sources must be third-party (not press releases, not your own blog)
 - Coverage must be non-trivial (more than brief mentions)
 
 **If you meet notability criteria:**
+
 - Do NOT write your own Wikipedia article. This is a conflict of interest.
 - You may suggest an article through the "Articles for Creation" process.
 - You may request corrections to an existing article through the Talk page.
 - Focus on providing sources, not writing content.
 
 **If you don't meet criteria:**
+
 - Focus on Wikidata instead (lower notability threshold).
 - Build press coverage and third-party references over time.
 - Do not try to game the system.
@@ -111,7 +118,7 @@ Having a well-defined entry in these systems means:
 
 **How to optimize:**
 
-1. Claim your organization profile at https://www.crunchbase.com
+1. Claim your organization profile at <https://www.crunchbase.com>
 2. Ensure these fields match your canonical entity profile:
    - Company name
    - Short description
@@ -131,6 +138,7 @@ Having a well-defined entry in these systems means:
 LinkedIn is not traditionally thought of as a knowledge graph, but it functions as one for professional entities. Many AI systems reference LinkedIn data for information about companies and people.
 
 **Company page optimization:**
+
 - Company name: canonical name
 - Tagline: canonical one-line description
 - About section: canonical full description
@@ -138,6 +146,7 @@ LinkedIn is not traditionally thought of as a knowledge graph, but it functions 
 - Specialties: list your key areas
 
 **Key people profiles:**
+
 - Headline: consistent title format (e.g., "CEO at Company Name")
 - About section: consistent with canonical bio
 - Experience: accurate current role with company name matching exactly

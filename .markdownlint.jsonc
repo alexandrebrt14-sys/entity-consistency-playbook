@@ -1,0 +1,13 @@
+{
+  // Lint mínimo para repo de documentação pública.
+  // Regras estéticas ruidosas desligadas de propósito — o gate é
+  // estrutura básica e links, não estilo.
+  "default": true,
+  "MD013": false, // limite de comprimento de linha
+  "MD033": false, // HTML inline (badges, alinhamento)
+  "MD041": false, // primeira linha precisa ser H1
+  "MD036": false, // ênfase usada como título
+  "MD024": { "siblings_only": true }, // títulos repetidos só entre irmãos
+  "MD029": false, // estilo de numeração de listas ordenadas
+  "MD060": false // estilo de espaçamento de pipes em tabelas
+}

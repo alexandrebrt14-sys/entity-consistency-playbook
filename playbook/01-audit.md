@@ -36,6 +36,7 @@ This becomes your **canonical entity profile** — the single source of truth th
 Check every digital property you control:
 
 **Website:**
+
 - Homepage: How is your entity described in the hero section, about section, footer?
 - About page: Does the description match your canonical profile?
 - Team page: Are names and titles consistent with LinkedIn and other profiles?
@@ -44,6 +45,7 @@ Check every digital property you control:
 - llms.txt: Does it exist? Is it accurate?
 
 **Social media profiles:**
+
 - LinkedIn (company page + personal profiles of key people)
 - Twitter/X
 - Instagram
@@ -58,6 +60,7 @@ For each, record: name used, bio/description, profile photo, links.
 These are platforms you may have profiles on but don't fully control:
 
 **Business directories:**
+
 - Google Business Profile
 - Crunchbase
 - Glassdoor
@@ -66,16 +69,19 @@ These are platforms you may have profiles on but don't fully control:
 - Industry-specific directories
 
 **Review platforms:**
+
 - G2, Capterra, TrustRadius (for software)
 - Yelp, TripAdvisor (for local businesses)
 - App Store, Google Play (for mobile apps)
 
 **Knowledge bases:**
+
 - Wikipedia (search for your entity)
 - Wikidata (search at wikidata.org)
 - Google Knowledge Panel (search your entity name in Google, look for the panel on the right)
 
 **Content platforms:**
+
 - Medium, Substack (author profiles)
 - GitHub (organization or personal profile)
 - SlideShare, Speaker Deck
@@ -110,16 +116,19 @@ Use the [Entity Audit Template](../templates/entity-audit-template.md) to record
 Review your audit and categorize discrepancies:
 
 **Critical (fix immediately):**
+
 - Wrong entity name (misspelled, outdated company name)
 - Factually incorrect information (wrong founding date, wrong location)
 - Outdated descriptions (still references old products, former leadership)
 
 **Important (fix this week):**
+
 - Inconsistent naming (Acme vs Acme Corp vs Acme Corporation)
 - Different descriptions across platforms
 - Missing `sameAs` links between profiles
 
 **Moderate (fix this month):**
+
 - Inconsistent profile photos/logos
 - Incomplete profiles on secondary platforms
 - Missing profiles on relevant platforms

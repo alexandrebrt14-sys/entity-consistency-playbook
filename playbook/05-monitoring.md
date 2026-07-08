@@ -27,6 +27,7 @@ Define 5-10 queries that test how AI systems describe your entity. Run them mont
 | Recommendation | "Recommend a [your category] for [use case]" | Whether you're recommended |
 
 **Platforms to check:**
+
 - ChatGPT (latest model)
 - Google Gemini
 - Perplexity

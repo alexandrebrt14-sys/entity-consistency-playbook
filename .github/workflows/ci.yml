@@ -1,0 +1,30 @@
+# CI leve para repo 100% de documentação:
+# 1) lint de Markdown (config em .markdownlint.jsonc)
+# 2) verificação de links internos quebrados (offline — externos não
+#    bloqueiam o CI para evitar falso-vermelho por rate-limit de terceiros)
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Lint de Markdown
+        uses: DavidAnson/markdownlint-cli2-action@v20
+        with:
+          globs: "**/*.md"
+
+      - name: Links internos quebrados
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: --offline --include-fragments --no-progress "**/*.md"
+          fail: true
