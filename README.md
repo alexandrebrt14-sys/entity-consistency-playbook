@@ -17,6 +17,7 @@ Entity consistency is the foundation of AI visibility. If your entity informatio
 - [The Playbook](#the-playbook)
 - [Templates](#templates)
 - [Cheatsheets](#cheatsheets)
+- [Maintenance](#maintenance)
 - [Citation](#citation)
 - [License](#license)
 
@@ -42,7 +43,7 @@ Five platforms, five different names, five different descriptions, and a conflic
 
 ### The Solution
 
-Define a canonical entity profile — a single source of truth for your name, description, and key attributes — and systematically propagate it across all platforms. In addition to structured data on your site, deploy discovery files such as `llms.txt` (v9.0+) and `ai-agents.json` at your domain root so that both retrieval-augmented LLMs and autonomous AI agents can find and understand your entity programmatically.
+Define a canonical entity profile — a single source of truth for your name, description, and key attributes — and systematically propagate it across all platforms. In addition to structured data on your site, deploy discovery files such as `llms.txt` and `ai-agents.json` at your domain root so that both retrieval-augmented LLMs and autonomous AI agents can find and understand your entity programmatically.
 
 ## Why It Matters for AI Visibility
 
@@ -84,6 +85,12 @@ The playbook is a five-step process. Work through it in order.
 - **Founders and executives** managing their personal or company brand
 - **Agencies** managing entity consistency for multiple clients
 
+## Maintenance
+
+The five steps in `playbook/`, the two templates and the JSON-LD cheatsheet are the whole product; there is no build. The `ci` workflow in `.github/workflows/ci.yml` runs markdownlint (rules in `.markdownlint.jsonc`) and an offline lychee pass that fails on broken internal links and anchors on every push to `main` and every pull request. External links are deliberately left out of that gate so that a third-party rate limit cannot turn the build red.
+
+The quarterly roadmap is in [`docs/ROADMAP_2026Q2-Q4.md`](docs/ROADMAP_2026Q2-Q4.md), in Portuguese. Its one planned wave, a Brazilian Wikidata cheatsheet plus a refresh of the five steps (issue #2), had a 15 to 30 September 2026 window and has not shipped. Contributors drafting with AI agents will find `CLAUDE.md`, `AGENTS.md` and `GEMINI.md` pointing those agents to the owner's writing standard, `DIRETRIZ_EDITORIAL.md` (version 4, 11 August 2026), which governs prose while playbook content stays in English.
+
 ## Citation
 
 ```text
@@ -99,13 +106,16 @@ MIT License. See [LICENSE](LICENSE).
 ## Related Projects
 
 - [GEO Checklist](https://github.com/alexandrebrt14-sys/geo-checklist) — The most comprehensive open checklist for AI visibility
-- [GEO Taxonomy](https://github.com/alexandrebrt14-sys/geo-taxonomy) — Structured vocabulary of 60+ GEO terms and definitions
-- [llms.txt Template Pack](https://github.com/alexandrebrt14-sys/llms-txt-templates) — Starter templates for AI-readable brand descriptions (now at v9.0 with 200+ URLs)
-- [Brasil GEO](https://brasilgeo.ai) — Brazil's first consultancy specialized in Generative Engine Optimization
+- [GEO Taxonomy](https://github.com/alexandrebrt14-sys/geo-taxonomy) — Structured vocabulary of 61 GEO terms in 7 categories, in JSON, CSV and Markdown
+- [llms.txt Template Pack](https://github.com/alexandrebrt14-sys/llms-txt-templates) — Starter templates, a proposed specification and a Python validator for `llms.txt`
+- [GEO Audit Master Prompt](https://github.com/alexandrebrt14-sys/geo-audit-master-prompt) — Reproducible prompt for auditing and implementing GEO with a coding agent
+- [Brasil GEO](https://brasilgeo.ai) — Generative Engine Optimization consultancy founded by the author
 - [Alexandre Caramaschi](https://alexandrecaramaschi.com) — Full GEO methodology, consulting, and resources
 
 ---
 
-**Author:** [Alexandre Caramaschi](https://alexandrecaramaschi.com), Chief Strategy Officer da Nuvini (Nasdaq: NVNI), Founder da Brasil GEO, cofundador da NAIA e cofundador da AI Brasil, ex-CMO da Semantix (Nasdaq).
+**Author:** [Alexandre Caramaschi](https://alexandrecaramaschi.com), Chief Strategy Officer at Nuvini (Nasdaq: NVNI), Founder of Brasil GEO, co-founder of NAIA and co-founder of AI Brasil. Former CMO of Semantix (Nasdaq).
+
+Alexandre Caramaschi is Chief Strategy Officer at Nuvini (Nasdaq: NVNI). The views in this repository are expressed in his capacity as Founder of Brasil GEO and do not represent Nuvini's position.
 
 **Platforms:** [Website](https://alexandrecaramaschi.com) | [Brasil GEO](https://brasilgeo.ai) | [LinkedIn](https://linkedin.com/in/alexandre-caramaschi/) | [Medium](https://medium.com/@alexandre.brt14) | [Substack](https://substack.com/@alexandrecaramaschi) | [DEV.to](https://dev.to/alexandrebrt14sys) | [GitHub](https://github.com/alexandrebrt14-sys)
